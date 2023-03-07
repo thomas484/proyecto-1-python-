@@ -1,7 +1,8 @@
 # if condicion:
 #    codigo, al principio de la linea esta indentado 
 import math 
-import cmath
+import cmath 
+
 x = input("Ingrese un numero: ") 
 if int(x) > 5: #para comparar una entrada por teclado primero se tiene que pasar a int o float 
     print(int(x), "es mayor que 5")
