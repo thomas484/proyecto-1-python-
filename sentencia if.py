@@ -15,5 +15,5 @@ print("En Celcius: ", celcius)
 #usando la libreria math
 print(math.pi)
 #usando la libreria math para numeros complejos cmath 
-number = complex(4,5) #creo un numero complejo
+number = complex(4,5) #creo un numero complejo   
 print(cmath.phase(number), "rad") #imprime la fase del numero en radianes 
