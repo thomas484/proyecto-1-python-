@@ -7,6 +7,6 @@ if int(x) > 5: #para comparar una entrada por teclado primero se tiene que pasar
 else:
     print(int(x), "es menor que 5")
 
-fahrenheit = input("Please Enter Fahrenheit value: ")
+fahrenheit = input("Ingrese la temperatura en grados Fahrenheit: ") #para que no entre dentro del else debe ir un espacio antes 
 celcius = (float(fahrenheit) - 32) * 5/9
-print("Celsius equivalent is: ", celcius)
+print("En Celcius: ", celcius)
