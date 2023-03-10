@@ -5,7 +5,7 @@ import cmath
 
 x = input("Ingrese un numero: ") 
 if int(x) > 5: #para comparar una entrada por teclado primero se tiene que pasar a int o float 
-    print(int(x), "es mayor que 5")
+    print(int(x), "es mayor56 que 5")
 else:
     print(int(x), "es menor que 5")
 #conversor de temp.
@@ -17,3 +17,4 @@ print(math.pi)
 #usando la libreria math para numeros complejos cmath 
 number = complex(4,5) #creo un numero complejo   
 print(cmath.phase(number), "rad") #imprime la fase del numero en radianes 
+print(float(19/46))
