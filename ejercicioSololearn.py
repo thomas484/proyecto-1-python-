@@ -20,3 +20,12 @@ if purity < 91.7 and purity >= 83.3:
     print("20K")
 if purity < 83.3:
     print("18K")    
+#bucle while 
+x = 1
+while x < 10:
+  if x%2 == 0:
+    print(str(x) + " is even")
+  else:
+    print(str(x) + " is odd")
+
+  x += 1
