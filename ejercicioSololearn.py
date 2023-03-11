@@ -10,7 +10,7 @@ elif year % 400 == 0:
 elif year % 400 != 0:
     print("Not a leap year")   
 #purificador de oro 
-purity = float(input())
+purity = float(input("Ingrese la pureza en porcentaje: "))
 #your code goes here
 if purity >= 99.9:
     print("24K")
@@ -20,7 +20,7 @@ if purity < 91.7 and purity >= 83.3:
     print("20K")
 if purity < 83.3:
     print("18K")    
-#bucle while 
+#bucle while con paridad de numeros 
 x = 1
 while x < 10:
   if x%2 == 0:
