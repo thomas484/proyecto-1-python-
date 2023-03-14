@@ -13,3 +13,8 @@ m = [
     ]
     
 print(m[1][2]) #se indexa desde el 0, por eso la fila 1 es la segunda y l columna 2 es la última 01, 012
+#operador in 
+words = ["spam", "egg", "spam", "sausage"]
+print("spam" in words)
+print("egg" in words)
+print("tomato" in words)
