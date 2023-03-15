@@ -6,3 +6,8 @@ for i in numeros:
 #1! 
 #2! ...
 #9!
+#argumentos en la funcion range(inicio,fin,step)
+conjuntoenpasos = list(range(1,10,2)) # [inicio, fin, step)
+conjunto = list(range(1,10)) # [inicio, fin)
+print(conjunto)
+print(conjuntoenpasos)
