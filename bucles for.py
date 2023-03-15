@@ -7,6 +7,6 @@ cuenta = 0
 palabra = str(input("Ingrese un string: "))
 l = str(input("Ingrese el caracter a buscar: "))
 for c in palabra:
-    if(c == l):
+    if c == l:
         cuenta+=1
-print("Coincidencias con la letra a: ", int(cuenta))
+print("Coincidencias con la letra a: ", int(cuenta)) 
