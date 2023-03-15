@@ -24,3 +24,13 @@ print(not 4 in nums) # 4 está en nums ? -> no -> not -> True
 print(4 not in nums) 
 print(not 3 in nums) # 3 está en nums ? -> si -> not -> False
 print(3 not in nums) 
+#ejercicio de reconocimientos de comandos de voz, si algun comando introducido está en la lista se usa el operador "in"
+
+commands = ["Lights Off", "Lock the door", "Open the door", "Make Coffee", "Shut down"]
+#your code goes here
+voz = str(input("Ingrese un comando: "))
+
+if voz in commands:
+    print("OK")
+else:
+    print("Not supported")
