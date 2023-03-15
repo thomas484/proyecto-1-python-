@@ -18,3 +18,9 @@ words = ["spam", "egg", "spam", "sausage"]
 print("spam" in words) # span está en la lista words ? -> si o True 
 print("egg" in words)
 print("tomato" in words)
+#operador NOT 
+nums = [1, 2, 3]
+print(not 4 in nums) # 4 está en nums ? -> no -> not -> True
+print(4 not in nums) 
+print(not 3 in nums) # 3 está en nums ? -> si -> not -> False
+print(3 not in nums) 
