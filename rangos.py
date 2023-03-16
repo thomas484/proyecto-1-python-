@@ -21,7 +21,7 @@ print(squares[7:]) #si el segundo argumento del slice se omite corta hasta el fi
 print(squares[::2]) #desde el principo hasta el final, imprime el primer elemento y va de dos en dos 
 print(squares[2:8:3])
 print(squares[1:-1])# hace un recorrido en bucle sobre la lista, imprime [1,4,9,16,25,36,49,64]
-#invierte un string 
-#your code goes here
+#invierte un string, que se pueden usar como una lista 
 palabra = str(input())
-print(palabra[::-1]) 
+print(palabra[::-1]) #recorre el string como una lista en forma inversa 
+print(palabra[::1]) #recorre el string normal de a un paso 
