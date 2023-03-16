@@ -13,6 +13,8 @@ print(conjunto)
 print(conjuntoenpasos)
 #imprime tramos de la lista 
 squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-print(squares[2:6]) #slice 
+print(squares[2:6]) #slice  (corte)
 print(squares[3:8])
 print(squares[0:1])
+print(squares[:7]) #si el primer elemento se omite entonces comienza desde el principio 
+print(squares[7:]) #si el segundo argumento del slice se omite corta hasta el final 
