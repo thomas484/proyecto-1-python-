@@ -18,3 +18,6 @@ print(squares[3:8])
 print(squares[0:1])
 print(squares[:7]) #si el primer elemento se omite entonces comienza desde el principio (del 0 al 6)
 print(squares[7:]) #si el segundo argumento del slice se omite corta hasta el final 
+print(squares[::2]) #desde el principo hasta el final, imprime el primer elemento y va de dos en dos 
+print(squares[2:8:3])
+print(squares[1:-1])# hace un recorrido en bucle sobre la lista, imprime [1,4,9,16,25,36,49,64]
