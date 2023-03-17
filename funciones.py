@@ -1,6 +1,4 @@
 #funciones en python 
-numeros = list(range(10))
-for i in numeros:
-    print(numeros[i])
+# fuciones que se usan en listas 
 letras = ["a", "b", "n", "s", "r", "h"]
 print("Longitud de la cadena:",len(letras))
