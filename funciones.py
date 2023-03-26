@@ -18,6 +18,8 @@ print("Posición de la coincidencia:",letras.index("h")) #si encuentra el mismo 
 # list.count(item) busca cuantas veces se repite un ítem de la lista
 # list.remove(item) elimina de la lista el item introducido en la funcion 
 # list.reverse() invierte los items de la lista 
+#
+#
 #EJERCICIO: ELIMINAR LOS VALORES MAXIMOS Y MINIMOS, LUEGO CON LA FUNCION SUM Y FOR SUMA TODA LA LISTA 
 data = [7, 5, 6.9, 1, 8, 42, 33, 128, 2, 8, 11, 0.4, 1024, 66, 809, 11, 8.9, 1.1, 3.42, 9, 100, 444, 78]
 #your code goes here
@@ -26,4 +28,4 @@ data.remove(max(data))
 sum = 0
 for i in data:
     sum+=i
-print(sum)
+print(sum/len(data)) #imprime el promedio de data, sin el valor mín y máx 
